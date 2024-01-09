@@ -10,6 +10,7 @@ function createContact() {
     address.textContent = '🏠 Mysia 42, Wypizdówko, Poland';
 
     const restaurantLocation = document.createElement('img');
+    restaurantLocation.classList.add('map');
     restaurantLocation.src = "menu_images/location.png";
     restaurantLocation.alt = "Anna's restaurant location";
 
